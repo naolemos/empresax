@@ -26,4 +26,50 @@ header > section > div
 {
     display: block;
 }
-
+#main
+{
+    background-image: url(/backgroundempresax.png);
+    height: 600px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 10px 0px 10px 0px;
+}
+#vantagens
+{
+    background-color: red;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.vantagensdiv
+{
+    background-color: aqua;
+    border: solid 5px black;
+    height: 150px;
+    display: flex;
+    align-items: center;
+}
+#ambiente
+{
+    background-color: green;
+    display: flex;
+    overflow-wrap: normal;
+    position: relative;
+}
+#imgambiente
+{
+    background-image: url(https://picsum.photos/800/600);
+    position: relative;
+    float: right;
+    height: 600px;
+    width: 800px;
+    width: 50%;
+    margin-top: 30px;
+    
+}
+#textoambiente
+{
+    width: 50%;
+}
