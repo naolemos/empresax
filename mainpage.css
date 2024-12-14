@@ -1,0 +1,29 @@
+body
+{
+    background-color: aquamarine;
+}
+a
+{
+    text-decoration: none;
+    color: inherit;
+}
+header > section
+{
+    position: sticky;
+    background-color: red;
+    display: flex;
+    justify-content: space-around;
+}
+header > section > div
+{
+    background-color: green;
+}
+#quemsomos > div
+{
+    display: none;
+}
+#quemsomos:hover div
+{
+    display: block;
+}
+
